@@ -49,7 +49,7 @@ We can see this is confirmed by the `Agent pid 46404` response, we now need to a
 
 Using the `ssh -T git@github.com` lets us confirm it has been added.
 
-#### Step 4 - Pushing files to GitHub using SSH
+### Step 4 - Pushing files to GitHub using SSH
 
 We firstly need to make a new repository on our GitHub account or refer to a 
 previously made one.
@@ -59,7 +59,7 @@ previously made one.
 Once our keys have been set up, we can create a git repo locally, adding and committing a README to it.
 we can then use an SSH connection to push this to our repository on GitHub.
 
-#### Extra Changing back to HTTPS
+### Extra - Changing back to HTTPS
 
 To change back to HTTPS from SSH, we need to set the url from our local git repository linking to GitHub to 
 an HTTPS connection, and we can do this by: 
