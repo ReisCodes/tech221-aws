@@ -58,3 +58,12 @@ previously made one.
 
 Once our keys have been set up, we can create a git repo locally, adding and committing a README to it.
 we can then use a SSH connection to push this to our repository on GitHub.
+
+#### Extra Changing back to HTTPS
+
+To change back to HTTPS from SSH, we need to set the url from our local git repository linking to GitHub to 
+an HTTPS connection, and we can do this by: 
+
+`git remote set-url origin https:..`
+
+where after HTTPS we put the url of our repository on GitHub.
