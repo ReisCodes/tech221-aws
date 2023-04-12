@@ -38,8 +38,9 @@ add SSH key.
 
 ### Step 3 - Adding your private key to git
 
-We now need to store our keys in a way that they can be accessed without needing our permission everytime
-and connecting our private key to our public key. We can do the first step as follows:
+An agent is a program that keeps your keys in memory so that you only need to unlock them once, 
+instead of every time. ssh-agent does this for SSH keys, this runs the agent in background, and sets the 
+apropriate environment variables for the current shell instance.
 
 ![](ssh_agent.png)
 
